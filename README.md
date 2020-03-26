@@ -1,3 +1,12 @@
-Para ter algum suporte bacana, entre em nosso Discord! 
+ █▀▀▀█ █▀▀▀█ █▀▀█ █▀▀█ █▀▀▀
+ ▀▀▀▄▄ █░░▒█ █▀▀▄ █▄▄▀ █▀▀▀
+ █▄▄▄█ █▄▄▄█ █▄▄█ █░▒█ █▄▄▄ 
 
-Link: https://discord.gg/8HzPNR
+Olá programador! Seja muito bem-vindo (ou vinda) ao GitHub oficial do Discord Lab! É aqui, aonde você vai ter uma base de como programar para o Discord, utilizando a livraria Discord.js e a linguagem Node.js!
+ Então, pegue seu cafézinho e desfrute desse lindo projeto. Ah, e caso você consiga aprender/gostar, divulgue para seus amigos! Um grande beijo, e bons estudos.
+
+ █▀▀▀█ █░▒█ █▀▀█ █▀▀▀█ █▀▀█ ▀▀█▀▀ █▀▀▀
+ ▀▀▀▄▄ █░▒█ █▄▄█ █░░▒█ █▄▄▀ ░▒█░░ █▀▀▀
+ █▄▄▄█ ▀▄▄▀ █░░░ █▄▄▄█ █░▒█ ░▒█░░ █▄▄▄
+
+Entre em nosso Discord para ter suporte! Link: https://discord.gg/9Jm2VrG
