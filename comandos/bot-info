@@ -1,0 +1,25 @@
+const Discord = require('discord.js'); // puxando a livraria 'discord.js'
+const moment = require('moment'); // puxando o NPM 'moment' (instale utilizando: npm i moment)
+moment.locale('pt-BR') // definindo o moment para BR
+
+exports.run = (client, message, args) => { // puxando a base
+
+    // criando umas variaveis que podem ser clicadas e redirecionadas a um site
+    var linguagem = ('[Node.js](https://nodejs.org/en/)') 
+    var livraria = ('[Discord.js](https://discord.js.org/#/)')
+
+
+    let embed = new Discord.RichEmbed()
+
+    .setTitle(`${client.username}`)
+    .setDescription(`Informações sobre o servidor`)
+    .addField(`**Minha linguaguem**`, linguagem)
+    .addField(`**Minha livraria**`, livraria)
+    .addField(`**Latência**`, `${parseInt(client.ping)} ms`)
+    .addField(``)
+
+}
+
+exports.help = { // setando o nome do arquivo, seguido do prefix
+    name: 'botinfo'
+}
