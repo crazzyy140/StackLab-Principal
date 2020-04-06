@@ -5,7 +5,7 @@ Olá programador! Seja muito bem-vindo (ou vinda) ao GitHub oficial do Discord L
 
 **INSTALAÇÃO**
 
-Para saber como instalar tudo, entre em nosso Discord, lá, iremos te ensinar do zero! Então, corraaa!!!!!
+Para saber como instalar tudo, entre em nosso Discord, lá, iremos te ensinar do zero! Então, corraaaa!!!!!
 Link: https://discord.gg/9Jm2VrG
 
 
