@@ -4,7 +4,7 @@ const db = require('quick.db'); // puxando a npm quick.db (uma database, que par
 exports.run = async (client, message, args) => { 
 
     
-    if (!['530192493728366622'].includes(message.author.id)) { // definindo que, apenas quem tiver o ID dentro dessa estrutura, pode utilizar esse comando
+    if (!['id de quem pode utilizar'].includes(message.author.id)) { // definindo que, apenas quem tiver o ID dentro dessa estrutura, pode utilizar esse comando
     return message.channel.send(`apenas meu desenvolvedor pode utilizar esse comando.`)
     }
 
