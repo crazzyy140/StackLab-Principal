@@ -4,7 +4,7 @@ const db = require('quick.db'); // puxando a npm quick.db(uma database, que para
 exports.run = async (client, message, args) => {
 
 
-    if (!['530192493728366622'].includes(message.author.id)) { // bote dentro o seu ID, ou de quem vc deseja q utilize
+    if (!['id de quem pode utilizar'].includes(message.author.id)) { // bote dentro o seu ID, ou de quem vc deseja q utilize
     return message.reply(`apenas meu papai pode utilizar esse comando.`)
     }
 
