@@ -6,7 +6,7 @@
 
 ```npm install```
 
-Se tudo estiver certo, crie um arquivo com o nome de **config.json** seguindo o exemplo do **config-example.json** na pasta comandos
+Se tudo estiver certo, crie um arquivo com o nome de **config.json** seguindo o exemplo do **config-example.json*.
 
 | Opção        | Descrição                        | Obrigatório? |
 | ------------ | -------------------------------- | ------------ |
