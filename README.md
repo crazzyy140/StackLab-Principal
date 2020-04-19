@@ -13,7 +13,7 @@ Se tudo estiver certo, crie um arquivo com o nome de **config.json** seguindo o 
 | PREFIX       | Prefixo para os comandos         | Sim          |
 | TOKEN        | Token de autenticação do bot     | Sim          |
 
-Depois de tudo configurado é só usar o comando
+Depois de tudo configurado é só usar o comando no terminal:
 
 ```
 node index.js
