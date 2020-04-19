@@ -1,4 +1,4 @@
-## DiscordLab
+## Sobre
  Olá programador. O DiscordLab é uma comunidade, fundada para auxiliar os programadores iniciantes e, até mesmo, ensinar mais coisas aos experientes. Não sabe programar nada? Fique tranquilo, iremos te ensinar!
 
 ## Instalação
