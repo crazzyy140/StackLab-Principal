@@ -5,7 +5,8 @@ exports.run = async (client, message, args) => {
     if (!['seu id'].includes(message.author.id)) {
     return message.channel.send(`apenas meu desenvolvedor pode utilizar`)
     }
-    let code = args.slice(0).join(" ");
+    const code = args.slice(0).join(" ")
+    if (!code) return message.reply(`digite algum code!`)
     
         try {
         let ev = require('util').inspect(eval(code));
@@ -14,13 +15,10 @@ exports.run = async (client, message, args) => {
         }
           let embed = new Discord.RichEmbed()
           .setDescription(`:inbox_tray: **ENTRADA**\n\`\`\`js\n${code}\`\`\`\n:outbox_tray: **SAÍDA**\n\`\`\`js\n${ev}\`\`\``)
-          .setColor('#00000')
         message.channel.send(embed)
         } catch(err) {
-          
           let errorrr = new Discord.RichEmbed()
           .setDescription(`<:DL_incorreto:693214803359039578> **ERRO DETECTADO!**\n\`\`\`\n${err}\`\`\``)
-          .setColor('RED')
             message.channel.send(errorrr)
         }
   }
