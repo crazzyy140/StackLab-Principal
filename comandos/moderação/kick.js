@@ -20,8 +20,7 @@ exports.run = (client, message, args) => {
        if (!motivo) return message.channel.send(erro); // Caso ele não escreva o motivo, iremos enviar a embed de explicação
        // Requisitando a permissão *KICK_MEMBERS* ou *EXPULSAR_MEMBROS*
        if (!message.member.hasPermission("KICK_MEMBERS")) return message.reply(`esse comando necessita da permissão: **KICK_MEMBERS**`)
-  
-    // Agora, a embed de confirmação
+ 
        let banembed = new Discord.RichEmbed()
 
        .setTitle(`<:DL_correto:693214719477153813> Confirmação`)
