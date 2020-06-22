@@ -28,3 +28,5 @@ x - Comando iniciado
 
 ## Ajuda
  Tem alguma dúvida? Entre em nosso [Discord](https://discord.gg/rrYhkT5) e tire-a! 
+
+[![Run on Repl.it](https://repl.it/badge/github/young-js/StackLab-Principal)](https://repl.it/github/young-js/StackLab-Principal)
